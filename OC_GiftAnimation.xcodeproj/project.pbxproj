@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1B0E77221272A90090AFE1 /* NDGifts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B0E76221272A90090AFE1 /* NDGifts.m */; };
+		6A1B0E7A221277C30090AFE1 /* NDGiftAnimationImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B0E79221277C30090AFE1 /* NDGiftAnimationImgView.m */; };
+		6A1B0E852212C4EE0090AFE1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B0E842212C4EE0090AFE1 /* UIView+Frame.m */; };
 		6A4B303421FAB23D003C4B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B303321FAB23D003C4B20 /* AppDelegate.m */; };
 		6A4B303721FAB23D003C4B20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B303621FAB23D003C4B20 /* ViewController.m */; };
 		6A4B303A21FAB23D003C4B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B303821FAB23D003C4B20 /* Main.storyboard */; };
@@ -15,6 +18,10 @@
 		6A4B304221FAB23E003C4B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B304121FAB23E003C4B20 /* main.m */; };
 		6A4B304C21FAB23E003C4B20 /* OC_GiftAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B304B21FAB23E003C4B20 /* OC_GiftAnimationTests.m */; };
 		6A4B305721FAB23E003C4B20 /* OC_GiftAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B305621FAB23E003C4B20 /* OC_GiftAnimationUITests.m */; };
+		6A4B306721FAB2DF003C4B20 /* NDGiftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B306621FAB2DF003C4B20 /* NDGiftAnimation.m */; };
+		6A4B306A21FAB531003C4B20 /* NDGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B306921FAB531003C4B20 /* NDGiftModel.m */; };
+		6A4B306D21FAB542003C4B20 /* NDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B306C21FAB542003C4B20 /* NDUserModel.m */; };
+		6A4B307021FAB563003C4B20 /* NDGiftAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B306F21FAB563003C4B20 /* NDGiftAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1B0E75221272A90090AFE1 /* NDGifts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDGifts.h; sourceTree = "<group>"; };
+		6A1B0E76221272A90090AFE1 /* NDGifts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDGifts.m; sourceTree = "<group>"; };
+		6A1B0E78221277C30090AFE1 /* NDGiftAnimationImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDGiftAnimationImgView.h; sourceTree = "<group>"; };
+		6A1B0E79221277C30090AFE1 /* NDGiftAnimationImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDGiftAnimationImgView.m; sourceTree = "<group>"; };
+		6A1B0E812212B7100090AFE1 /* EWDispatchAfterBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWDispatchAfterBlocks.h; sourceTree = "<group>"; };
+		6A1B0E822212B9040090AFE1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6A1B0E832212C4EE0090AFE1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6A1B0E842212C4EE0090AFE1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		6A4B302F21FAB23D003C4B20 /* OC_GiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_GiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4B303221FAB23D003C4B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A4B303321FAB23D003C4B20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +66,14 @@
 		6A4B305221FAB23E003C4B20 /* OC_GiftAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OC_GiftAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4B305621FAB23E003C4B20 /* OC_GiftAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_GiftAnimationUITests.m; sourceTree = "<group>"; };
 		6A4B305821FAB23E003C4B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4B306521FAB2DF003C4B20 /* NDGiftAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDGiftAnimation.h; sourceTree = "<group>"; };
+		6A4B306621FAB2DF003C4B20 /* NDGiftAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDGiftAnimation.m; sourceTree = "<group>"; };
+		6A4B306821FAB531003C4B20 /* NDGiftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDGiftModel.h; sourceTree = "<group>"; };
+		6A4B306921FAB531003C4B20 /* NDGiftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDGiftModel.m; sourceTree = "<group>"; };
+		6A4B306B21FAB542003C4B20 /* NDUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDUserModel.h; sourceTree = "<group>"; };
+		6A4B306C21FAB542003C4B20 /* NDUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDUserModel.m; sourceTree = "<group>"; };
+		6A4B306E21FAB563003C4B20 /* NDGiftAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDGiftAnimationView.h; sourceTree = "<group>"; };
+		6A4B306F21FAB563003C4B20 /* NDGiftAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDGiftAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +128,14 @@
 				6A4B303321FAB23D003C4B20 /* AppDelegate.m */,
 				6A4B303521FAB23D003C4B20 /* ViewController.h */,
 				6A4B303621FAB23D003C4B20 /* ViewController.m */,
+				6A4B306B21FAB542003C4B20 /* NDUserModel.h */,
+				6A4B306C21FAB542003C4B20 /* NDUserModel.m */,
+				6A1B0E75221272A90090AFE1 /* NDGifts.h */,
+				6A1B0E76221272A90090AFE1 /* NDGifts.m */,
+				6A1B0E832212C4EE0090AFE1 /* UIView+Frame.h */,
+				6A1B0E842212C4EE0090AFE1 /* UIView+Frame.m */,
+				6A1B0E822212B9040090AFE1 /* PrefixHeader.pch */,
+				6A4B306421FAB2A8003C4B20 /* GiftAnimation */,
 				6A4B303821FAB23D003C4B20 /* Main.storyboard */,
 				6A4B303B21FAB23E003C4B20 /* Assets.xcassets */,
 				6A4B303D21FAB23E003C4B20 /* LaunchScreen.storyboard */,
@@ -130,6 +161,22 @@
 				6A4B305821FAB23E003C4B20 /* Info.plist */,
 			);
 			path = OC_GiftAnimationUITests;
+			sourceTree = "<group>";
+		};
+		6A4B306421FAB2A8003C4B20 /* GiftAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6A4B306521FAB2DF003C4B20 /* NDGiftAnimation.h */,
+				6A4B306621FAB2DF003C4B20 /* NDGiftAnimation.m */,
+				6A4B306E21FAB563003C4B20 /* NDGiftAnimationView.h */,
+				6A4B306F21FAB563003C4B20 /* NDGiftAnimationView.m */,
+				6A1B0E78221277C30090AFE1 /* NDGiftAnimationImgView.h */,
+				6A1B0E79221277C30090AFE1 /* NDGiftAnimationImgView.m */,
+				6A4B306821FAB531003C4B20 /* NDGiftModel.h */,
+				6A4B306921FAB531003C4B20 /* NDGiftModel.m */,
+				6A1B0E812212B7100090AFE1 /* EWDispatchAfterBlocks.h */,
+			);
+			path = GiftAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4B306721FAB2DF003C4B20 /* NDGiftAnimation.m in Sources */,
+				6A4B307021FAB563003C4B20 /* NDGiftAnimationView.m in Sources */,
+				6A1B0E7A221277C30090AFE1 /* NDGiftAnimationImgView.m in Sources */,
 				6A4B303721FAB23D003C4B20 /* ViewController.m in Sources */,
+				6A1B0E77221272A90090AFE1 /* NDGifts.m in Sources */,
+				6A4B306D21FAB542003C4B20 /* NDUserModel.m in Sources */,
 				6A4B304221FAB23E003C4B20 /* main.m in Sources */,
 				6A4B303421FAB23D003C4B20 /* AppDelegate.m in Sources */,
+				6A1B0E852212C4EE0090AFE1 /* UIView+Frame.m in Sources */,
+				6A4B306A21FAB531003C4B20 /* NDGiftModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +490,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ljq/Desktop/OC_GiftAnimation/OC_GiftAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = OC_GiftAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +509,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ljq/Desktop/OC_GiftAnimation/OC_GiftAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = OC_GiftAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

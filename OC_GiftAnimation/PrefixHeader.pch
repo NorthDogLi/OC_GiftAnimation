@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  OC_GiftAnimation
+//
+//  Created by ljq on 2019/2/12.
+//  Copyright © 2019年 ljq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Frame.h"
+
+#define NDWeakSelf                      __weak typeof(self) weakSelf = self;
+#define NDStrongSelf                    __strong typeof (self) self = weakSelf;
+
+#define NDViewRadius(view, rads)\
+\
+view.layer.cornerRadius = rads;\
+view.layer.masksToBounds = YES;
+
+/** 设置圆角
+ * UIRectCornerTopLeft
+ * UIRectCornerTopRight
+ * UIRectCornerBottomLeft
+ * UIRectCornerBottomRight
+ * UIRectCornerAllCorners
+ */
+#define NDBezier(view, corners, rads)\
+\
+{[view layoutIfNeeded];\
+UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:view.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(rads, rads)];\
+CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];\
+maskLayer.frame = view.bounds;\
+maskLayer.path = maskPath.CGPath;\
+view.layer.mask = maskLayer;\
+}
+
+
+#define RGBAOF(v, a)        [UIColor colorWithRed:((float)(((v) & 0xFF0000) >> 16))/255.0 \
+green:((float)(((v) & 0x00FF00) >> 8))/255.0 \
+blue:((float)(v & 0x0000FF))/255.0 \
+alpha:a]
+
+#endif /* PrefixHeader_pch */
